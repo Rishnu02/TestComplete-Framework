@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="imageLavaMt" key="{F44EFE14-4931-4A68-83CC-0547644728BC}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageLavaMt" ID="{F44EFE14-4931-4A68-83CC-0547644728BC}" FileName="Regions\imageLavaMt.png" Update="False" />
+		</child>
+		<child name="imageLavaMt1" key="{7059E3C3-E0A1-4DD1-9288-CBF498B0AA29}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageLavaMt1" ID="{7059E3C3-E0A1-4DD1-9288-CBF498B0AA29}" FileName="Regions\imageLavaMt1.png" Update="False" />
+		</child>
+	</children>
+</Root>

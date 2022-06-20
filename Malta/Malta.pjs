@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{375BEB42-8129-4158-8E4E-E1C2B6B1B382}">
+	<children>
+		<child name="Malta" key="{FBFB403A-E7B2-44EF-96C0-5A293FD9BE96}" path="Malta\Malta.mds" />
+	</children>
+	<testItems key="{B8E9D9CE-7E5A-4F72-94DF-2EBF04DD3E58}">
+		<children>
+			<testItem key="{FBFB403A-E7B2-44EF-96C0-5A293FD9BE96}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{77BEB8D0-E1E0-45CE-AC66-4C0799442070}" />
+	<analysis key="{F3B91178-4E46-4558-B1D0-2EDE191155EA}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

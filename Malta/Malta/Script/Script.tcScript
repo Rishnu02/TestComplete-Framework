@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="AtomicFunctions">
+			<child name="MainAtomicFunctions" key="{04515C3A-0A63-442E-B2D9-DA36C04F7261}" path="MainAtomicFunctions.js" />
+		</folder>
+		<folder name="ComplexActions">
+			<child name="MainActionsFunction" key="{9A5E8025-7513-48B4-86F8-7CDAA209EE34}" path="MainActionsFunction.js" />
+		</folder>
+		<folder name="FrameworkFunctions">
+			<child name="FrameworkCoreFunction" key="{F17C9E23-6D2B-4AC3-B748-0B9F20CE8B2D}" path="FrameworkCoreFunction.js" />
+			<child name="SendMail" key="{D6B54176-D9C3-44B3-9850-4881AE21E7C0}" path="SendMail.js" />
+			<child name="FRAMEWORKTestSelectorCode" key="{2CBEB9DE-8A4A-4A0F-A792-1A38F1F384AE}" path="FRAMEWORKTestSelectorCode.js" />
+		</folder>
+	</children>
+</Root>

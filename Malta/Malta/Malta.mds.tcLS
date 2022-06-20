@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="logs">
+				<Prp name="key" type="S" value="{2C23CA0A-3D0A-4729-A16D-BA3334E23A77}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="310039002D00300036002D003200300032003200"/>
+						</Node>
+						<Prp name="name" type="S" value="time"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="31003000"/>
+						</Node>
+						<Prp name="name" type="S" value="TCID"/>
+					</Node>
+					<Node name="var10">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="driver1"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="43006800650063006B00200074006F00740061006C002000620061006C0061006E0063006500200066006F007200200061006C006C0020006900740065006D007300200061006400640065006400200069006E0020004D00790020006300610072007400"/>
+						</Node>
+						<Prp name="name" type="S" value="desc"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="Message"/>
+					</Node>
+					<Node name="var4">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="11"/>
+						</Node>
+						<Prp name="name" type="S" value="i"/>
+					</Node>
+					<Node name="var5">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="300038003A00340034003A0033003100"/>
+						</Node>
+						<Prp name="name" type="S" value="startTime"/>
+					</Node>
+					<Node name="var6">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="300038003A00340034003A0033003100"/>
+						</Node>
+						<Prp name="name" type="S" value="endTime"/>
+					</Node>
+					<Node name="var7">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5000610073007300"/>
+						</Node>
+						<Prp name="name" type="S" value="status"/>
+					</Node>
+					<Node name="var8">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="54006F00740061006C00200061006D006F0075006E007400200066006F007200200074006800650020006900740065006D007300200061006400640065006400200069006E00200079006F00750072002000630061007200740020006900730020002D002000AC200A003900320035002E0030003000"/>
+						</Node>
+						<Prp name="name" type="S" value="result"/>
+					</Node>
+					<Node name="var9">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="300030003A00300030003A0030003000"/>
+						</Node>
+						<Prp name="name" type="S" value="timeInterval"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>
